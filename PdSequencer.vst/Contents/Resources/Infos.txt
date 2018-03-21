@@ -1,0 +1,6 @@
+Experimental step sequencer inspired by Arturia Keystep.
+
+Big thanks for Pierre Guillot and his Camomile!
+
+Version: 1.0
+Author: thawkins
