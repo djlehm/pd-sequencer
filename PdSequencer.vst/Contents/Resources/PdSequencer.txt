@@ -49,5 +49,6 @@ param -name Step31 -min 0 -max 127 -default 0;
 param -name Step32 -min 0 -max 127 -default 0;
 param -name Gate Time -label ms -min 10 -max 10000 -default 250;
 param -name Gate Scale -label x -min 0.1 -max 10 -default 1;
+param -name Speed -list 1\2/ 1\4/ 1\6/ 1\8/ 1\12/ 1\16/ 1\24/ 1\32 -default 0;
 
 
