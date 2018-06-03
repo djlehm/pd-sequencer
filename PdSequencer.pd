@@ -1,8 +1,8 @@
-#N canvas 869 23 811 982 10;
+#N canvas 840 23 840 982 10;
 #X obj 50 20 hradio 15 0 0 2 \$0-play-s \$0-play-r empty 0 -8 0 10
 -262144 -1 -1 0;
 #X obj 120 20 tgl 15 0 \$0-rec-s \$0-rec-r empty 17 7 0 10 -262144
--1 -1 0 1;
+-1 -1 1 1;
 #X text 109 35 record;
 #X obj 174 20 tgl 15 0 \$0-append-s \$0-append-r empty 17 7 0 10 -262144
 -33289 -33289 0 1;
@@ -496,7 +496,7 @@ empty -2 -8 0 10 -262144 -1 -1 0 1;
 #X obj 417 390 s \$0-append-r;
 #X obj 417 410 s \$0-pop-r;
 #X obj 417 430 s \$0-rest-r;
-#X obj 263 417 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 263 417 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X obj 169 475 spigot;
 #X obj 169 496 t b;
@@ -590,6 +590,7 @@ empty -2 -8 0 10 -262144 -1 -1 0 1;
 #X obj 612 263 notein;
 #X floatatom 612 285 5 0 0 0 - - -, f 5;
 #X obj 301 757 noteout 1;
+#X msg 32 795 55 55;
 #X connect 10 0 63 0;
 #X connect 10 0 101 0;
 #X connect 11 0 64 0;
@@ -651,5 +652,6 @@ empty -2 -8 0 10 -262144 -1 -1 0 1;
 #X connect 119 0 71 0;
 #X connect 119 1 75 0;
 #X connect 121 0 122 0;
+#X connect 122 0 126 0;
 #X connect 123 0 124 0;
 #X coords 0 -1 1 1 496 290 1 10 10;
