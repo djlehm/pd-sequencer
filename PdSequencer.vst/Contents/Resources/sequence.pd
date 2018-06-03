@@ -319,7 +319,7 @@
 #X msg 1185 111 1;
 #X obj 310 171 swap, f 25;
 #X obj 355 220 == 0;
-#N canvas 627 504 450 346 route.notes 1;
+#N canvas 562 177 450 369 route.notes 1;
 #X obj 23 19 inlet notes;
 #X obj 23 68 spigot 1;
 #X obj 104 68 spigot 0;
@@ -358,7 +358,7 @@
 #X obj 146 712 r \$0-transpose;
 #X obj 153 782 r \$0-bypass;
 #X obj 116 151 s \$0-bypass;
-#X obj 156 173 s \$0-transpose;
+#X obj 155 173 s \$0-transpose;
 #X obj 724 104 s \$0-sendrest;
 #X obj 126 107 r \$0-sendrest;
 #X obj 487 63 tgl 15 0 empty empty append 17 7 0 10 -262144 -1 -1 0
@@ -401,7 +401,7 @@
 #X connect 13 0 14 0;
 #X connect 14 0 10 1;
 #X restore 175 763 pd on.select.output.gates.vels;
-#N canvas 606 197 864 669 write.note 1;
+#N canvas 606 197 864 669 write.note 0;
 #X obj 14 17 inlet noteoff;
 #X obj 14 62 t b b b b;
 #X msg 14 148 0;
